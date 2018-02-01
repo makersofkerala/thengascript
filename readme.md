@@ -1,6 +1,8 @@
 # Thengascript
 ## Start programming for the web in Malayalam
 
+![Thengascript Logo](./thengascript.png)
+
 Ever wondered what it would be like to program for the web in Malayalam?
 This wonder is what drove the creation of Thengascript.
 With it you can start programming for the web today in Malayalam.
