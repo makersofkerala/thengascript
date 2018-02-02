@@ -1,25 +1,26 @@
 {
-  "name": "thengascript",
-  "version": "0.0.1",
-  "description": "Start programming for the web in Malayalam",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bunchaeffinamateurs/thengascript.git"
-  },
-  "keywords": [
-    "pl",
-    "malayalam",
-    "coconut",
-    "littlelanguage"
-  ],
-  "author": "bunchaeffinamateurs",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bunchaeffinamateurs/thengascript/issues"
-  },
-  "homepage": "https://github.com/bunchaeffinamateurs/thengascript#readme"
+    "name": "thengascript",
+    "version": "0.0.1",
+    "description": "Programming for the web in Malayalam",
+    "main": "thengascript.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/bunchaeffinamateurs/thengascript.git"
+    },
+    "keywords": [
+	"pl",
+	"malayalam",
+	"coconutscript",
+	"thengascript",
+	"littlelanguage"
+    ],
+    "author": "bunchaeffinamateurs",
+    "license": "MIT",
+    "bugs": {
+	"url": "https://github.com/bunchaeffinamateurs/thengascript/issues"
+    },
+    "homepage": "https://github.com/bunchaeffinamateurs/thengascript/"
 }
