@@ -8,3 +8,6 @@ This wonder is what drove the creation of Thengascript.
 With it you can start programming for the web today in Malayalam.
 
 Underneath the hood, it translates your code to it's ECMAscript equivalent which is then interpreted and ran by the browser.
+
+(c) 2018 BunchaEffinAmateurs
+MIT License - എന്ന് വെച്ചാ basically പൊളിച്ചടക്കാമെന്ന്
