@@ -131,4 +131,4 @@ if(typeof window != "undefined")
 
 /* തർജ്ജമയും ഇവാലുവേഷനും നോഡിൽ ലഭ്യം */
 if(typeof module != "undefined" && module.exports)
-    module.exports = {translate, run};
+    module.exports = {translate, run, compile};
