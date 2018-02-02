@@ -125,4 +125,10 @@ async function compileScripts() {
     } 
 };
 
-window.addEventListener('DOMContentLoaded', compileScripts);
+/* ബ്രൗസേഴ്സിന് വേണ്ടി */
+if(typeof window != "undefined")
+    window.addEventListener('DOMContentLoaded', compileScripts);
+
+/* തർജ്ജമയും ഇവാലുവേഷനും നോഡിൽ ലഭ്യം */
+if(typeof module != "undefined" && module.exports)
+    module.exports = {translate, run};
