@@ -6,6 +6,9 @@
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
    },
+   "bin": {
+      "thengafy": "thengafy/index.js"
+   },
    "repository": {
       "type": "git",
       "url": "git+https://github.com/bunchaeffinamateurs/thengascript.git"
@@ -22,5 +25,8 @@
    "bugs": {
       "url": "https://github.com/bunchaeffinamateurs/thengascript/issues"
    },
-   "homepage": "https://github.com/bunchaeffinamateurs/thengascript/"
+   "homepage": "https://github.com/bunchaeffinamateurs/thengascript/",
+   "dependencies": {
+      "yargs": "^11.0.0"
+   }
 }
