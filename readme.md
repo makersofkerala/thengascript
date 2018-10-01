@@ -1,11 +1,11 @@
-# Thengascript
-## Start programming for the web in Malayalam
+# mThengascript
+## Start programming for the web in Manglish
 
 ![Thengascript Logo](./thengascript.png)
 
-Ever wondered what it would be like to program for the web in Malayalam?
-This wonder is what drove the creation of Thengascript.
-With it you can start programming for the web today in Malayalam.
+Ever wondered what it would be like to program for the web in Manglish?
+This wonder is what drove the creation of mThengascript.
+With it you can start programming for the web today in Manglish.
 
 Check out the demos: http://studiobofa.com/ss/thengascript/#demos
 
