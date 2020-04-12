@@ -11,6 +11,6 @@ Check out the demos: http://makers-of-kerala.now.sh/thengascript/
 
 Underneath the hood, it translates your code to it's ECMAscript equivalent which is then interpreted and ran by the browser.
 
-(c) 2018 StudioBofa.
+(c) 2018-2020 Makers of Kerala.
 
 MIT License - എന്ന് വെച്ചാ basically പൊളിച്ചടക്കാമെന്ന്
