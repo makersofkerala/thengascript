@@ -2,14 +2,14 @@ const coreLangKeywords = {
     "അടിസ്ഥാനം": "default",
     "ആണെങ്കിൽ":"if",
     "അല്ലെങ്കിൽ": "else",
-    "ആവട്ടെ": "let",
+    "ആകട്ടെ": "let",
     "അവസ്ഥ": "case",
     "അസാധു": "null",
     "ഇറക്കുമതി": "import",
     "ഇത്": "this",
     "ഇന്": "for",
     "ഇല്‍": "in",
-    "ഉദാഹരണമാണ്": "instanceof",
+    "ആരുടേതാണ്": "instanceof",
     "ഉയര്‍ന്നതരം": "super",
     "എറിയുക": "throw",
     "എണ്ണല്‍": "enum",
@@ -46,9 +46,9 @@ const coreLangKeywords = {
     "സമ്പര്‍ക്കമുഖം": "interface",
     "സുരക്ഷിതമാക്കപ്പെട്ട": "protected",
     "സ്വകാര്യ": "private",
-    "സ്ഥായി": "static"};
+    "മാറാതെ": "static"};
 
-const browserObjects = {"കാണിക്കുക": "console.log", "മുന്നറിയിപ്പ്": "alert"};
+const browserObjects = {"കാണിക്കുക": "console.log", "മുന്നറിയിപ്പ്": "alert","ഉറപ്പാണോ":"confirm"};
 
 const മലയാളം_to_english = Object.assign({}, coreLangKeywords, browserObjects);
 
