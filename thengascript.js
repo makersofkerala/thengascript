@@ -48,6 +48,7 @@ const coreLangKeywords = {
     "സ്വകാര്യ": "private",
     "സ്ഥായി": "static"};
 
+
 const browserObjects = {"കാണിക്കുക": "console.log", "മുന്നറിയിപ്പ്": "alert"};
 
 const മലയാളം_to_english = Object.assign({}, coreLangKeywords, browserObjects);
@@ -80,7 +81,25 @@ const translate = (x) => {
 
     let keys = Object.keys(മലയാളം_to_english);
 
-    let replacer = new RegExp(keys.join("|"),"gi")
+    const captureGroup = x => `(?:${x})`;
+
+    const lookAhead = x => `(?=${x})`;
+
+    const or = (vals) => vals.join("|");
+
+    const many = (x) => `${x}*`;
+
+    const endsWith = (x) => `${x}$`
+    
+    const singleQuotedLiterals = `'${many("[^']")}'`;
+
+    const doubleQuotedLiterals = `"${many('[^"]')}"`;
+
+    const nonQuotes = `[^'"]`;
+
+    const quotes = lookAhead(endsWith(many(captureGroup(or([nonQuotes, singleQuotedLiterals, doubleQuotedLiterals])))));
+
+    let replacer = new RegExp("(" + keys.join("|") + ")" + quotes,"gi");
 
     return x.replace(replacer, matched => മലയാളം_to_english[matched]);
 
@@ -89,6 +108,8 @@ const translate = (x) => {
 const run = (code) => {
 
     try {
+
+        console.log(code);
 
 	eval(code);
 
