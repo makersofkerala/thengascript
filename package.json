@@ -1,6 +1,6 @@
 {
    "name": "thengascript",
-   "version": "0.1.3",
+   "version": "0.1.4",
    "description": "Programming for the web in Malayalam",
    "main": "thengascript.js",
    "scripts": {
