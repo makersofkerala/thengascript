@@ -17,22 +17,25 @@ If you want to try the live examples above, you can input Malayalam using Google
 
 To write code on your computer download Thengascript and include it in your code as:
 
-<pre><script src="thengascript.js"></script></pre>
+```js
+<script src="thengascript.js"></script>
+```
 
 Now you can start Thengascripting in two ways. Include your inline code as:
 
-<pre>
+```js
 <script type="text/thengascript">
 
 /* Write your Thengascript code here */
 
 </script>
 
-</pre>
+```
 
 or you can also include the file using the src attribute:
-
+```js
 <script type="text/thengascript" src="your-thengascript-file.js"></script>
+```
 
 Sample files can be found inside the `demos/` folder.
 
