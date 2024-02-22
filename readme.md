@@ -39,5 +39,5 @@ or you can also include the file using the src attribute:
 
 Sample files can be found inside the `demos/` folder.
 
-(c) 2018-2023 — Makers of Kerala
+(c) 2018-2024 — Makers of Kerala
 MIT License - എന്ന് വെച്ചാ basically പൊളിച്ചടക്കാമെന്ന്
