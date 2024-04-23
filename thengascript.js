@@ -53,8 +53,14 @@ const coreLangKeywords = {
 
 const browserObjects = {"കാണിക്കുക": "console.log", "മുന്നറിയിപ്പ്": "alert", "രേഖ":"document", "ജാലകം": "window"};
 
-if(HTMLDocument) {
+if(typeof HTMLDocument != "undefined") {
+
 	HTMLDocument.prototype.അന്വേഷണം = HTMLDocument.prototype.querySelector;
+}
+if(typeof HTMLElement != "undefined") {
+
+Object.defineProperty(HTMLElement.prototype, "ഉള്ളടക്കം", {set(val) {this.textContent = val;}});
+
 }
 
 Array.prototype.സൂചിക = Array.prototype.indexOf;
@@ -62,7 +68,6 @@ Array.prototype.സന്ധി = Array.prototype.join;
 Array.prototype.ഉന്ത്‌ = Array.prototype.push;
 Object.defineProperty(Array.prototype,"നീളം", {get () { return this.length }});
 
-Object.defineProperty(HTMLElement.prototype, "ഉള്ളടക്കം", {set(val) {this.textContent = val;}});
 
 const മലയാളം_to_english = Object.assign({}, coreLangKeywords, browserObjects);
 
