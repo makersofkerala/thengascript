@@ -30,6 +30,7 @@ const coreLangKeywords = {
     "നല്‍കുക": "yield",
     "നിർവഹിക്കുന്നു": "implements",
     "പരിവര്‍ത്തനം": "var",
+    "പരിവർത്തനം": "var",
     "പിടിക്കുക": "catch",
     "പുതിയ": "new",
     "പ്രയോഗം": "function",
@@ -118,6 +119,8 @@ const translate = (x) => {
 const run = (code) => {
 
     try {
+
+        console.log(code);
 
 	eval(code);
 

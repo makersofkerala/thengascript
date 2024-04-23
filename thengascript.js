@@ -30,6 +30,7 @@ const coreLangKeywords = {
     "നല്‍കുക": "yield",
     "നിർവഹിക്കുന്നു": "implements",
     "പരിവര്‍ത്തനം": "var",
+    "പരിവർത്തനം": "var",
     "പിടിക്കുക": "catch",
     "പുതിയ": "new",
     "പ്രയോഗം": "function",
@@ -52,7 +53,9 @@ const coreLangKeywords = {
 
 const browserObjects = {"കാണിക്കുക": "console.log", "മുന്നറിയിപ്പ്": "alert", "രേഖ":"document", "ജാലകം": "window"};
 
-HTMLDocument.prototype.അന്വേഷണം = HTMLDocument.prototype.querySelector;
+if(HTMLDocument) {
+	HTMLDocument.prototype.അന്വേഷണം = HTMLDocument.prototype.querySelector;
+}
 
 Array.prototype.സൂചിക = Array.prototype.indexOf;
 Array.prototype.സന്ധി = Array.prototype.join;
