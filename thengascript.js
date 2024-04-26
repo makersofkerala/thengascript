@@ -38,7 +38,7 @@ const coreLangKeywords = {
     "ഭാണ്‌ഡം": "package",
     "മടക്കം": "return",
     "മുടക്കുക": "break",
-    "മൂല്യനിർണ്ണയം": "eval",
+    "മൂല്യനിർണ്ണയം": "compile",//eval()
     "വാദം": "arguments",
     "വ്യർത്ഥം": "void",
     "വ്യാപിപ്പിക്കുന്നു": "extends",
